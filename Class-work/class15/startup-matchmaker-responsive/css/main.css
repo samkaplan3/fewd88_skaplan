@@ -157,3 +157,32 @@ footer {
 	color: white;
 	padding: 2% 3%;
 }
+
+#burger{
+	display: none;
+	float: right;
+}
+
+#mobile-nav{
+	display: none;
+
+}
+
+#large-nav{
+	display: block;
+
+}
+
+@media screen and (max-width: 768px) {
+	#burger{
+		display: block;
+	}
+
+	#mobile-nav{
+		display: block;
+
+	}
+	#long-nav{
+		display: none;
+	}
+}
