@@ -9,11 +9,22 @@ body {
 }
 
 #wrapper{
+	text-align: center;
 	width: 100%;
 	height: 100%;
 	background-color: black;
 }
 
+
+/*header {
+	background: blue;
+	position: fixed;
+	width: 100%;
+	height: 15%;
+	clear: both;
+	transition: all 2s;
+
+}*/
 
 #header{
 background-color: yellow;
@@ -24,11 +35,13 @@ clear: both;
 
 
 
+
 #mini-navbar{
 	width: 100%;
 	height: 8%;
 	background-color: black;
 	align-content: right;
+	text-align: right;
 }
 
 #mini-navbar a{
@@ -46,12 +59,13 @@ clear: both;
 	margin: 0 auto;
 	line-height: 15%;
 	padding-top: 20px;
+	text-align: left;
 }
 
 #qsc img{
 	width: 30%;
 	margin: 0 auto;
-	text-align: center;
+	text-align: left;
 	margin-left: 35%	
 }
 
@@ -64,6 +78,8 @@ clear: both;
 	background-color: black;
 	align-content: center;
 }
+
+
 
 #main-navbar a{
 	text-decoration: none;
