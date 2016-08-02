@@ -7,13 +7,4 @@ $(document).ready(function () {
 		}
 		
 	});
-
-
-
-
-
-
-
-
-
 })
